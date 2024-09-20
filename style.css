@@ -1,0 +1,160 @@
+/*Todos*/
+#button-home{
+    background-image: url('img/logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+}
+#button-home:active{
+    background-color: rgb(0, 247, 53);
+}
+
+/*Pagina Home*/
+#home{
+    background-image: url(img/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*botao de proximo */
+#button {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    background-color: transparent;
+    background-image: url('img/botaodeprox.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adiciona um efeito hover */
+}
+#button:active {
+    background-color: rgb(0, 247, 53);
+}
+
+/*botao de nome */
+
+.menu {
+    position: fixed;
+    top: -80px;
+    right: -550px;
+    width: 550px;
+    height: 50%;
+    transition: right 1s ease-in-out;
+    overflow-y: auto;
+    z-index: 2;
+    
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+#toggle-menu {
+    background-image: url(img/Setinha.png);
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    padding: 48px 21px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.0s;
+    z-index: 1;
+}
+#toggle-menu:hover {
+    background-color: rgb(0, 247, 53);
+}
+
+/*Pagina Tarefa*/
+#Tarefa{
+    background-image: url(img/paginatb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.Tarefas{
+    width: 940px;
+    margin: 10 auto;
+    padding: 50px 0;
+}
+.trabalhos ul, li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 5% 1%;
+    padding: 45px 200px;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+#trabalho1 {
+    background-image: url(abasimg/Projeto\ PortFolio.png);
+    padding: 45px 200px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+#trabalho1:active {
+    background-color: rgb(0, 247, 53);
+}
+
+#trabalho2 {
+    background-image: url(abasimg/Projeto\ PortFolio\ \(10\).png);
+    padding: 45px 200px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+#trabalho2:active {
+    background-color: rgb(0, 247, 53);
+}
+
+#trabalho3 {
+    background-image: url(abasimg/Projeto\ PortFolio\ \(2\).png);
+    padding: 45px 200px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+#trabalho3:active {
+    background-color: rgb(0, 247, 53);
+}
+
+#trabalho4 {
+    background-image: url(abasimg/Projeto\ PortFolio\ \(3\).png);
+    padding: 45px 200px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+#trabalho4:active {
+    background-color: rgb(0, 247, 53);
+}
