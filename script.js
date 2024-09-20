@@ -19,30 +19,18 @@ const button = document.getElementById('button');
        
 });
 
+const css = document.getElementById('css');
 
-const button_home = document.getElementById('button-home');
-
-    button_home.addEventListener('click', function() {
-        window.location.href = 'tarefas.html';
-    });
-
-
-
-
-const volta = document.getElementById('volta');
-
-    volta.addEventListener('click', function() {
-        window.location.href = 'index.html';
+        css.addEventListener('click', function() {
+            window.location.href = 'codcss.html';
 
        
 });
-//---------------------------------------------------------------------------------------------------------------------
 
+const js = document.getElementById('js');
 
-const trabalho1 = document.getElementById('trabalho1');
-
-    trabalho1.addEventListener('click', function() {
-        window.location.href = 'trabalho.html'; //mudar o destino
+        js.addEventListener('click', function() {
+            window.location.href = 'codjs.html';
 
        
 });
