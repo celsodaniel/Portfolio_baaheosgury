@@ -9,28 +9,3 @@ document.getElementById('toggle-menu').addEventListener('click', function() {
     }
     
 });
-
-
-const button = document.getElementById('button');
-
-        button.addEventListener('click', function() {
-            window.location.href = 'tarefas.html';
-
-       
-});
-
-const css = document.getElementById('css');
-
-        css.addEventListener('click', function() {
-            window.location.href = 'codcss.html';
-
-       
-});
-
-const js = document.getElementById('js');
-
-        js.addEventListener('click', function() {
-            window.location.href = 'codjs.html';
-
-       
-});
