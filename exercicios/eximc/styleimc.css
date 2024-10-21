@@ -1,0 +1,38 @@
+h4{
+    color: white;
+    font-size: 20px;
+}
+
+#caua{
+    position: absolute;
+    width: 50%;
+    bottom: auto;
+}
+
+#caua h4{
+ margin: 60px 65px;
+
+
+}
+
+#cacau{
+    position: absolute;
+    width: 50%;
+    bottom: 250px;
+  
+}
+
+#cacau h4{
+    margin: 60px 40px;
+    
+}
+#comeca{
+    text-align: center;
+    padding: 30px;
+
+}
+#calcular{
+    text-align: center;
+    padding: 30px;
+
+}
