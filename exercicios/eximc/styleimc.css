@@ -1,38 +1,40 @@
+html, main{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden
+}
 h4{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    position: relative;
+    text-align: left;
+    left: 15%;
+    margin: 5%;
 }
-
-#caua{
-    position: absolute;
+p{
+    margin: 10%;
+}
+#todos{
     width: 50%;
-    bottom: auto;
-}
-
-#caua h4{
- margin: 60px 65px;
-
-
-}
-
-#cacau{
-    position: absolute;
-    width: 50%;
-    bottom: 250px;
-  
-}
-
-#cacau h4{
-    margin: 60px 40px;
-    
-}
-#comeca{
-    text-align: center;
-    padding: 30px;
-
+    height: 70%;
 }
 #calcular{
+    margin: 10%;
     text-align: center;
-    padding: 30px;
+    width: 60%;
+    height: 10%;
+}
+#img-motivation{
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
 
+#text-motivation{
+    position: absolute;
+    left: 55%;
+    bottom: 21%;
+    color: white;
+    font-size: 30px;
 }

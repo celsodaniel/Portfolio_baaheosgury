@@ -6,7 +6,7 @@ genero = document.getElementById('genero')
 imc = document.getElementById('imc')
 taxaw = document.getElementById('taxa-water')
 
-document.getElementById('comeca').addEventListener('click', function(){
+document.getElementById('calcular').addEventListener('click', function(){
 
     peson = parseInt(prompt("Digite seu peso:"))
     alturan = parseInt(prompt("Digite sua Altura:"))
@@ -15,12 +15,12 @@ document.getElementById('comeca').addEventListener('click', function(){
 
     continuar = true;    
     while(continuar){
-        if(generon == 'mulher'){
+        if(generon == "homem"){
             taxawc = peson * 35
             continuar = false;
             mudar();
         }
-        if(generon == 'homem'){
+        if(generon == "mulher"){
             taxawc = peson * 31
             continuar = false;
             mudar();
@@ -29,7 +29,7 @@ document.getElementById('comeca').addEventListener('click', function(){
             alert('Digite homem ou mulher')
             generon = prompt("Digite seu Gênero:")
     
-        };
+        }
     }
     function mudar(){
         peso.innerHTML = ('Seu peso: ' + peson)
@@ -43,29 +43,30 @@ document.getElementById('comeca').addEventListener('click', function(){
 
         imc.innerHTML = ("Seu imc: " + imcn.toFixed(2))
 
+        text = document.getElementById('text-motivation')
 
-
-        if(imcn <= 18.4){
-            "abaixo do peso"
+        if(imcn <= 18.40){
+            text.innerHTML = "seco"
         }
-        if(imcn => 18.5 && imcn <= 24.9){
-            "18,5 a 24,9: Peso normal"
-        }
-        if(imcn => 25 && imcn <= 29.9){
-            "25 a 29,9: Sobrepeso"
-        }
-        if(imcn => 30 && imcn <= 34.9){
-            "30 a 34,9: Obesidade grau I"
-        }
-        if(imcn => 35 && imcn <= 39,9){
-            "35 a 39,9: Obesidade grau II"
-        }
-        if(imcn => 40){
-            "Acima de 40: Obesidade grau III"
-        }
+        if(imcn >= 18.41 && imcn <= 24.99){
+                    text.innerHTML = "normal"
+                }
+        if(imcn >= 25.00 && imcn <= 29.99){
+                    text.innerHTML = "gordinho"
+                }
+        if(imcn >= 30.00 && imcn <= 34.99){
+                    text.innerHTML = "gordo"
+                }
+        if(imcn >= 35.00 && imcn <= 39.99){
+                    text.innerHTML = "baleia"
+                }
+        if(imcn >= 40.00){
+                    text.innerHTML = "planeta"
+                }
 
     };
     
 
 
 })
+
