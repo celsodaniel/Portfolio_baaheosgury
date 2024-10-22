@@ -11,26 +11,27 @@ document.getElementById('calcular').addEventListener('click', function(){
     peson = parseInt(prompt("Digite seu peso:"))
     alturan = parseInt(prompt("Digite sua Altura:"))
     idaden = parseInt(prompt("Digite sua Idade:"))
-    generon = prompt("Digite seu Gênero:")
 
     continuar = true;    
-    while(continuar){
-        if(generon == "homem"){
-            taxawc = peson * 35
-            continuar = false;
-            mudar();
+        while(continuar){
+            generon = prompt("Digite seu Gênero:   " + "    homem ou mulher")
+
+            if(generon == "homem"){
+                taxawc = peson * 35
+                continuar = false;
+                mudar();
+            }
+            if(generon == "mulher"){
+                taxawc = peson * 31
+                continuar = false;
+                mudar();
+            }
+            else{      
+            }
         }
-        if(generon == "mulher"){
-            taxawc = peson * 31
-            continuar = false;
-            mudar();
-        }
-        else{
-            alert('Digite homem ou mulher')
-            generon = prompt("Digite seu Gênero:")
+
+        
     
-        }
-    }
     function mudar(){
         peso.innerHTML = ('Seu peso: ' + peson)
         idade.innerHTML = ('Sua altura: ' + alturan)
