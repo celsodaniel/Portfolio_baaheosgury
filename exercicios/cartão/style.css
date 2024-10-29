@@ -20,7 +20,10 @@
 }
 @media (max-width: 768px) {
     #integrantes {
-      width: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: 25%;
     }
   }
 h2{
