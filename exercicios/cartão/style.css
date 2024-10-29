@@ -7,7 +7,9 @@
         
     }
 }
-
+html, body, main{
+    overflow: hidden;
+}
 #integrantes{
     position: absolute;
     left: 35%;
@@ -20,10 +22,10 @@
 }
 @media (max-width: 768px) {
     #integrantes {
-        width: 100%;
-        overflow: hidden;
+        width: 93.5%;
+        height: 82%;
         position: absolute;
-        left: 0%;
+        left: 3%;
     }
   }
 h2{
@@ -62,7 +64,7 @@ h2{
 }
 #celso{
     position: absolute;
-    left: -50%;
+    left: -90%;
     bottom: 3.9%;
     height: 83%;
     width: 33%;
@@ -73,13 +75,14 @@ h2{
 }
 @media (max-width: 768px) {
     #celso {
-        width: 50%;
+        width: 90%;
+        height: 82%;
         position: absolute;
     }
   }
 #leonardo{
     position: absolute;
-    left: 120%;
+    left: 160%;
     bottom: 3.9%;
     height: 83%;
     width: 33%;
@@ -90,7 +93,8 @@ h2{
 }
 @media (max-width: 768px) {
     #leonardo {
-        width: 50%;
+        width: 90%;
+        height: 82%;
     }
   }
 .inf{

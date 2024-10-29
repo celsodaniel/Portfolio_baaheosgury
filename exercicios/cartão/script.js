@@ -1,25 +1,34 @@
 document.getElementById('pleo').addEventListener('click', function() {
     leo = document.querySelector('#leonardo');
-
-    leo.style.left = '35%';
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
+    if (mediaQuery.matches) {
+        leo.style.left = '35%';
+    } else {
+        leo.style.left = '3%';
+    }
+    
 
 });
 document.getElementById('pcelso').addEventListener('click', function() {
     celso = document.querySelector('#celso');
-    
-    celso.style.left = '35%';
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
+    if (mediaQuery.matches) {
+        celso.style.left = '35%';
+    } else {
+        celso.style.left = '3%';
+    }
     
 });
 document.getElementById('tntl').addEventListener('click', function() {
     leo = document.querySelector('#leonardo');
     
-    leo.style.left = '100%';
+    leo.style.left = '160%';
     
 });
 document.getElementById('tntc').addEventListener('click', function() {
     celso = document.querySelector('#celso');
     
-    celso.style.left = '-50%';
+    celso.style.left = '-90%';
     
 });
 
