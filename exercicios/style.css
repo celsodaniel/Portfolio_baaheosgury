@@ -18,6 +18,15 @@ header{
     left: 40%;
     color: rgb(82, 82, 82);
 }
+@media (max-width: 768px) {
+    .text{
+        font: bolder;
+        font-size: 20px;
+        position: relative;
+        left: 5%;
+        color: rgb(82, 82, 82);
+    } 
+}
 
 #button-home{
     background-image: url('../img/logo.png');
