@@ -19,7 +19,7 @@ document.getElementById('tntl').addEventListener('click', function() {
 document.getElementById('tntc').addEventListener('click', function() {
     celso = document.querySelector('#celso');
     
-    celso.style.left = '-40%';
+    celso.style.left = '-50%';
     
 });
 
