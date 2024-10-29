@@ -16,6 +16,7 @@ html, main{
 }
 h2{
     position: absolute;
+    font-size: 190%;
     left: 20%;
     top: 30%;
 }
@@ -68,6 +69,14 @@ h2{
     background-size: cover;
     transition: left 3s ease-in-out;
 }
+.inf{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+}
+.inf h3{
+    text-align: left;
+}
 
 .tnt{
     background-color: transparent;
@@ -75,9 +84,10 @@ h2{
     background-position: center;
     background-size: cover;
     height: 10%;
-    width: 13%;
-    position: relative;
-    bottom: -86%;
+    width: 15%;
+    position: absolute;
+    left: 40%;
+    bottom: 0%;
     border: none;
     cursor: pointer;
 }
