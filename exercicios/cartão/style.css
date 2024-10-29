@@ -1,4 +1,4 @@
-html, main{
+html, body, main{
     height: 100%;
     display: grid;
     overflow: hidden;
