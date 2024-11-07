@@ -12,10 +12,10 @@ window.onload = () => {
 soundToggle.addEventListener('click', () => {
     if (audio.paused) {
         audio.play();
-        soundToggle.textContent = '🔇 Pause Sound';
+        soundToggle.textContent = '🔊 Play Sound';
     } else {
         audio.pause();
-        soundToggle.textContent = '🔊 Play Sound';
+        soundToggle.textContent = '🔇 Pause Sound';
     }
 });
 
